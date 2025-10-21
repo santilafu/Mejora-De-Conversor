@@ -1,6 +1,7 @@
 // Crear Interfaz para el conversor
 // Importamos Swing para la interfaz gráfica
 import javax.swing.*;
+import java.awt.*;
 
 // Clase principal del conversor
 public class Conversor {
@@ -32,11 +33,28 @@ public class Conversor {
         panel.add(boton);
         panel.add(resultado);
 
+        // Elementos de visualización mejorados
+        panel.setBackground(new Color(245, 245, 247)); // gris claro estilo macOS
+        boton.setBackground(new Color(220, 220, 220)); // gris suave
+        boton.setForeground(Color.BLACK);
+
+        panel.setBorder(BorderFactory.createEmptyBorder(30,30,30,30));
+
+        //Para fuente creo una variable para usar en varios sitios
+        Font fuente = new Font("Verdana", Font.PLAIN, 14);
+        etiqueta.setFont(fuente);
+        campo.setFont(fuente);
+        boton.setFont(fuente);
+        resultado.setFont(fuente);
+
+        //Diseño de ventana
+        ventana.setLocationRelativeTo(null);// Centrar ventana en pantalla
+
         // Añadimos el panel a la ventana
         ventana.add(panel);
 
         // Ajustes básicos
-        ventana.setSize(400, 250);
+        ventana.setSize(300, 180);
         ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         ventana.setVisible(true);
     }
