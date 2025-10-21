@@ -52,3 +52,24 @@ Aprendí que los márgenes se crean con `EmptyBorder`, donde se puede poner el e
 Por ejemplo:
 ```java
 panel.setBorder(BorderFactory.createEmptyBorder(20, 20, 20, 20));
+```
+### 4. Centrado de la ventana
+
+Configuré la ventana para que se abra centrada en pantalla usando:
+````java
+ventana.setLocationRelativeTo(null);
+````
+
+Así siempre aparece en el centro, y no en una esquina como pasa por defecto.
+
+--- 
+🧠 Resultado final
+
+Después de todos estos cambios, la aplicación se ve mucho más limpia:
+los textos son legibles, los colores suaves, el botón resalta lo justo y todo está bien centrado.
+El resultado final es una interfaz sencilla pero cuidada, con un código ordenado y fácil de entender.
+
+✍️ Autor
+
+Santiago Lafuente Hernández
+Estudiante de 1º DAM – Módulo Desarrollo de Interfaces

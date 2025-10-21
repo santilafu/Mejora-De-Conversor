@@ -34,7 +34,7 @@ public class Conversor {
         panel.add(resultado);
 
         // Elementos de visualización mejorados
-        panel.setBackground(new Color(245, 245, 247)); // gris claro estilo macOS
+        panel.setBackground(new Color(230, 245, 255)); //
         boton.setBackground(new Color(220, 220, 220)); // gris suave
         boton.setForeground(Color.BLACK);
 
@@ -57,6 +57,7 @@ public class Conversor {
         ventana.setSize(300, 180);
         ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         ventana.setVisible(true);
+
     }
 
     // Método que realiza la conversión
