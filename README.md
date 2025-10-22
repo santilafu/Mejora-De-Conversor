@@ -72,4 +72,4 @@ El resultado final es una interfaz sencilla pero cuidada, con un código ordenad
 ✍️ Autor
 
 Santiago Lafuente Hernández
-Estudiante de 1º DAM – Módulo Desarrollo de Interfaces
+Estudiante de 2º DAM – Módulo Desarrollo de Interfaces
